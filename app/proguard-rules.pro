@@ -1,0 +1,4 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class br.com.cacapalavras.**$$serializer { *; }
+-keepclassmembers class br.com.cacapalavras.** { *** Companion; }
+-keepclasseswithmembers class br.com.cacapalavras.** { kotlinx.serialization.KSerializer serializer(...); }
